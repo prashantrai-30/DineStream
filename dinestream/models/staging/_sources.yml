@@ -1,0 +1,21 @@
+sources:
+  - name: raw
+    database: DINESTREAM
+    schema: RAW
+    tables:
+      - name: restaurants
+        description: "This table contains the raw data of restaurants from Dinestream."
+      - name: users
+        description: "This table contains the raw data of users from Dinestream."
+      - name: food
+        description: "This table contains the raw data of food items from Dinestream."
+      - name: menu
+        description: "This table contains the raw data of menus from Dinestream."
+      - name: orders
+        description: "This table contains the raw data of orders from Dinestream."
+      - name: order_items
+        description: "This table contains the raw data of order items from Dinestream."
+      - name: reviews
+        description: "This table contains the raw data of reviews from Dinestream."
+
+        

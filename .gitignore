@@ -1,0 +1,35 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+profiles.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow
+airflow/logs/
+airflow/.env
+
+# dbt
+dinestream/target/
+dinestream/dbt_packages/
+dinestream/logs/
+dinestream/.user.yml
+
+# Generated AI embeddings
+ai/*.parquet
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset files
+data/*.csv
