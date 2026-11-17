@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- TODO: add a banner or a short demo GIF of the Streamlit apps / Airflow DAG run -->
-<img src="docs/banner.png" alt="DineStream banner" width="100%" />
-
 # 🍽️ DineStream
 
 **An end-to-end analytics pipeline for a food-delivery platform: Snowflake + dbt + Airflow, with LLM-powered review insights and natural-language querying.**
@@ -84,10 +81,6 @@ Business teams need trustworthy, up-to-date metrics (GMV, delivery SLAs, cancel 
 
 ## 🏗️ Architecture / How It Works
 
-<!-- TODO: save a clean export of your architecture diagram as docs/architecture.png -->
-<p align="center">
-  <img src="docs/architecture.png" alt="DineStream architecture: Zomato dataset → S3 → Snowflake RAW → STAGING → MARTS → Streamlit/Snowsight" width="100%" />
-</p>
 
 ```mermaid
 flowchart LR
